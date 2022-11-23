@@ -61,7 +61,8 @@ class MainActivity : AppCompatActivity() {
                     }
                     2 ->{
 
-                        //abrir outra activity
+                        val intent = Intent(this@MainActivity, TmbActivity::class.java)
+                        startActivity(intent)
                     }
                     3 ->{
                         //abrir o item 3
